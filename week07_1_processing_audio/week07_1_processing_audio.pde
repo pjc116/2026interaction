@@ -1,0 +1,13 @@
+// week07_1_processing_audio
+// sketch - library - manage libraries
+
+import processing.sound.*;
+SoundFile sound;
+void setup(){
+  size(300, 300);
+  sound = new SoundFile(this, "music.mp3");
+  sound.play();
+}
+void draw(){
+  
+}
